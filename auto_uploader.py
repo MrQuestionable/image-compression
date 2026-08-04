@@ -4,7 +4,7 @@ import boto3
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-WATCH_DIRECTORY ="C:\\Users\\khand\\OneDrive\\Documents\\coding\\project\\uploadwatchzone"
+WATCH_DIRECTORY ="C:/Users/khand/OneDrive/Documents/coding/project/uploadwatchzone"
 S3_BUCKET_NAME = "minor-project-raw-ingress-2026" # 
 
 s3_client = boto3.client('s3')
