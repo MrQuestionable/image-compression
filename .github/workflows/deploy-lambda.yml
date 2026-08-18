@@ -25,6 +25,7 @@ jobs:
     - name:  Run Pytest with Moto
       run: |
         cd "lambda function"
+        rm -rf PIL Pillow Pillow.libs exifread
         pytest test.py
 
 
